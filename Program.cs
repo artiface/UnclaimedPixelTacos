@@ -74,11 +74,11 @@ internal class UnclaimedPixelTacos
         //save them to files
         using (StreamWriter file = new StreamWriter("Claimed.txt"))
         foreach (var entry in tokenIdToMintedMap.Where(kvp => kvp.Value == true))
-            file.WriteLine("Token: {0} {1}]", entry.Key, entry.Value); 
+            file.WriteLine("Token: {0}", entry.Key); 
         
         using (StreamWriter file = new StreamWriter("Unclaimed.txt"))
         foreach (var entry in tokenIdToMintedMap.Where(kvp => kvp.Value == false))
-            file.WriteLine("Token: {0} {1}", entry.Key, entry.Value); 
+            file.WriteLine("Token: {0}", entry.Key); 
     }
 
 }
