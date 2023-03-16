@@ -1,2 +1,6 @@
 # UnclaimedPixelTacos
- Sime script to find the unclaimed pixel tacos! 
+ Simple script to find the unclaimed pixel tacos! 
+
+
+Clone and open with VS code
+
